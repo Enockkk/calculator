@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentStart="true"
+    android:rowCount="8"
+    android:columnCount="4"
+    android:verticalSpacing="10dp"
+    android:horizontalSpacing="10dp"
+    android:gravity="center"
+    android:screenOrientation="sensor">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="350dp"
+        android:layout_height="118dp"
+        android:layout_rowSpan="1"
+        android:layout_columnSpan="4"
+        android:layout_marginLeft="4px"
+        android:gravity="left"
+        android:textSize="50dp" />
+
+
+    <Button
+        android:id="@+id/btnClear"
+        android:text="C"
+        android:textSize="26sp" />
+    <Button
+        android:id="@+id/btnSin"
+        android:text="sin"
+        android:textSize="26sp" />
+    <Button
+        android:id="@+id/btnCos"
+        android:text="cos"
+        android:textSize="26sp" />
+    <Button
+        android:id="@+id/btnTan"
+        android:text="tan"
+        android:textSize="26sp" />
+    <Button
+        android:id="@+id/btnBin"
+        android:text="BIN"
+        android:textSize="26sp" />
+    <Button
+        android:id="@+id/btnOct"
+        android:text="OCT"
+        android:textSize="26sp" />
+    <Button
+        android:id="@+id/btnHex"
+        android:text="HEX"
+        android:textSize="26sp" />
+    <Button
+        android:id="@+id/btn10000000000"
+        android:text=""
+        android:textSize="26sp" />
+    <Button
+        android:id="@+id/btn1"
+        android:text="1"
+        android:textSize="26sp" />
+    <Button
+        android:id="@+id/btn2"
+        android:text="2"
+        android:textSize="26sp" />
+    <Button
+        android:id="@+id/btn3"
+        android:text="3"
+        android:textSize="26sp" />
+    <Button
+        android:id="@+id/btnPlus"
+        android:text="+"
+        android:textSize="26sp" />
+    <Button
+        android:id="@+id/btn4"
+        android:text="4"
+        android:textSize="26sp" />
+    <Button
+        android:id="@+id/btn5"
+        android:text="5"
+        android:textSize="26sp" />
+    <Button
+        android:id="@+id/btn6"
+        android:text="6"
+        android:textSize="26sp" />
+    <Button
+        android:id="@+id/btnSubtract"
+        android:text="-"
+        android:textSize="26sp" />
+    <Button
+        android:id="@+id/btn7"
+        android:text="7"
+        android:textSize="26sp" />
+    <Button
+        android:id="@+id/btn8"
+        android:text="8"
+        android:textSize="26sp" />
+    <Button
+        android:id="@+id/btn9"
+        android:text="9"
+        android:textSize="26sp" />
+    <Button
+        android:id="@+id/btnMultiply"
+        android:text="*"
+        android:textSize="26sp" />
+    <Button
+        android:id="@+id/btnPoint"
+        android:text="."
+        android:textSize="26sp" />
+    <Button
+        android:id="@+id/btn0"
+        android:text="0"
+        android:textSize="26sp" />
+    <Button
+        android:id="@+id/btnSum"
+        android:text="="
+        android:textSize="26sp" />
+    <Button
+        android:id="@+id/btnDivide"
+        android:text="/"
+        android:textSize="26sp" />
+
+</GridLayout>
